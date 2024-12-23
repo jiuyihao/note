@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { set_sidebar } from "./utils/auto_sidebar.mjs";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/note/',
   title: "一号机的文档",
   description: "A VitePress Site",
   themeConfig: {
